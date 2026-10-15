@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <div class="nav-links">
+            <a href="index.html">Trang chủ</a>
+            <a href="about.html">Giới thiệu</a>
+            <a href="projects.html">Dự án</a>
+            <a href="contact.html" class="active">Liên hệ</a>
+        </div>
+        <button id="dark-mode-toggle">🌙</button>
+    </nav>
+
+    <main class="container scroll-reveal">
+        <h1>Liên hệ với tôi</h1>
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+            <label>Email của bạn:</label>
+            <input type="email" name="email" required placeholder="name@example.com">
+            
+            <label>Nội dung tin nhắn:</label>
+            <textarea name="message" rows="5" required placeholder="Nhập nội dung..."></textarea>
+            
+            <button type="submit" class="btn">Gửi đi</button>
+        </form>
+    </main>
+
+    <footer><p>&copy; 2026 Huỳnh Ngọc Hiếu.</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
